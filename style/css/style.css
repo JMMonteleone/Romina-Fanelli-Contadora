@@ -11,7 +11,7 @@ body {
 
 header {
   background-color: #0a1d37;
-  color: grey;
+  color: #d9d9d9;
   padding: 10px 0;
 }
 header #headerContainer {
@@ -32,7 +32,7 @@ header #headerContainer .container-header a .logo {
   width: auto;
 }
 header #headerContainer .container-header a .titulo-estudio {
-  color: grey;
+  color: #d9d9d9;
   font-size: 27px;
   font-weight: 600;
   margin: 0;
@@ -43,7 +43,7 @@ header #headerContainer .header-social {
   justify-content: center;
 }
 header #headerContainer .header-social a {
-  color: grey;
+  color: #d9d9d9;
   font-size: 18px;
   text-decoration: none;
   transition: color 0.3s ease;
@@ -54,7 +54,7 @@ header #headerContainer .header-social a:hover {
 
 .navbar {
   padding: 40px 20px 20px;
-  color: grey;
+  color: #d9d9d9;
   font-weight: 700;
 }
 .navbar ul li {
@@ -68,7 +68,7 @@ header #headerContainer .header-social a:hover {
 
 footer {
   background-color: #0a1d37;
-  color: grey;
+  color: #d9d9d9;
   text-align: center;
   padding: 20px;
   font-size: 14px;
@@ -92,7 +92,7 @@ footer ul li {
   list-style-type: none;
 }
 footer ul li a {
-  color: grey;
+  color: #d9d9d9;
   font-weight: 650;
   text-decoration: none;
 }
