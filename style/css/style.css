@@ -1,0 +1,188 @@
+@charset "UTF-8";
+body {
+  font-family: "Playfair", serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #0a1d37;
+  color: grey;
+  padding: 10px 0;
+}
+header #headerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+header #headerContainer .container-header a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+header #headerContainer .container-header a .logo {
+  height: 80px;
+  width: auto;
+}
+header #headerContainer .container-header a .titulo-estudio {
+  color: grey;
+  font-size: 27px;
+  font-weight: 600;
+  margin: 0;
+}
+header #headerContainer .header-social {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+header #headerContainer .header-social a {
+  color: grey;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+header #headerContainer .header-social a:hover {
+  color: #00aced;
+}
+
+.navbar {
+  padding: 40px 20px 20px;
+  color: grey;
+  font-weight: 700;
+}
+.navbar ul li {
+  font-size: 20px;
+  margin: 15px;
+}
+.navbar .mi-menu {
+  flex-direction: column;
+  text-align: center;
+}
+
+footer {
+  background-color: #0a1d37;
+  color: grey;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 650;
+}
+footer .wsp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+footer .wsp img {
+  width: 100px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+footer ul li {
+  font-size: 17px;
+  padding: 20px;
+  list-style-type: none;
+}
+footer ul li a {
+  color: grey;
+  font-weight: 650;
+  text-decoration: none;
+}
+footer .footer-bottom p {
+  font-size: 16px;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/estudioContable.jpg") no-repeat center center/cover;
+  position: sticky;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+.hero .container {
+  width: 100vh;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+}
+.hero .container h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.hero .container p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Secciones */
+.section {
+  background-color: white;
+  padding: 60px 20px;
+}
+
+.section h2 {
+  font-size: 28px;
+  color: #0a1d37;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+/* Servicios */
+.section ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.section ul li {
+  margin-bottom: 12px;
+}
+
+/* Formulario */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.formulario button {
+  background-color: #0a1d37;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.formulario button:hover {
+  background-color: #14325e;
+}
+
+/* Información de contacto */
+.info-contacto p {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

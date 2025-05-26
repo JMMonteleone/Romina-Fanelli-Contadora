@@ -1,0 +1,18 @@
+.navbar {
+    padding: 40px 20px 20px;
+    color: $textColor;
+    font-weight: 700;
+
+    ul {
+
+        li {
+            font-size: 20px;
+            margin: 15px;
+        }
+    }
+
+    .mi-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+}

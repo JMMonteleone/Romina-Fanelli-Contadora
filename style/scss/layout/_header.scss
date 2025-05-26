@@ -1,0 +1,52 @@
+header {
+    background-color: $mainColor;
+    color: $textColor;
+    padding: 10px 0;
+
+    #headerContainer {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+
+        .container-header {
+            a {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+
+                .logo {
+                    height: 80px;
+                    width: auto;
+                }
+
+                .titulo-estudio {
+                    color: $textColor;
+                    font-size: 27px;
+                    font-weight: 600;
+                    margin: 0;
+                }
+
+            }
+        }
+
+        .header-social {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+
+            a {
+                color: $textColor;
+                font-size: 18px;
+                text-decoration: none;
+                transition: color 0.3s ease;
+
+                &:hover {
+                    color: #00aced;
+                }
+            }
+        }
+    }
+}
